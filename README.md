@@ -5,7 +5,7 @@ This project demonstrates a complete **SQL data analysis** workflow on a simulat
 
 ## 🛠️ Tech Stack
 - **Database:** Microsoft SQL Server
-- **Language:** T-SQL
+- **Language:** SQL
 - **Key Skills:** Data Cleaning, Exploratory Data Analysis (EDA), Bulk Insert, CTEs, Window Functions, Aggregation
 
 ## 📂 Dataset
