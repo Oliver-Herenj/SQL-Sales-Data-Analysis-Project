@@ -51,4 +51,3 @@ The insights provide a foundation for:
 - `README.md` – Project documentation
 
 ---
-⭐ *Feel free to contribute or suggest improvements!*
