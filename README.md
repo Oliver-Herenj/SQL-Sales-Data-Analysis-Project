@@ -1,28 +1,28 @@
-# 🛒 SQL Sales Data Analysis Project
+# SQL Sales Data Analysis Project
 
-## 📖 Overview
+## Overview
 This project demonstrates a complete **SQL data analysis** workflow on a simulated e-commerce sales dataset. The goal was to clean, explore, and analyze the data to uncover actionable business insights that could drive decisions in sales, marketing, and operations.
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Database:** Microsoft SQL Server
 - **Language:** SQL
 - **Key Skills:** Data Cleaning, Exploratory Data Analysis (EDA), Bulk Insert, CTEs, Window Functions, Aggregation
 
-## 📂 Dataset
+## Dataset
 The dataset contains over 10,000 sales transactions with the following attributes:
 - `transaction_id`, `customer_id`, `customer_name`, `customer_age`, `gender`
 - `product_id`, `product_name`, `product_category`
 - `quantity`, `price`, `payment_mode`
 - `purchase_date`, `time_of_purchase`, `status` (e.g., delivered, cancelled, returned)
 
-## 🧹 Data Cleaning & Preparation
+## Data Cleaning & Preparation
 Performed extensive data wrangling to ensure data quality:
 - Removed duplicate records using `ROW_NUMBER()` and CTEs.
 - Standardized categorical values (e.g., 'Male'/'Female' → 'M'/'F').
 - Handled NULL values through deletion and updates.
 - Corrected column names and validated data types.
 
-## 🔍 Key Analysis & Insights
+## Key Analysis & Insights
 Answered critical business questions using SQL:
 
 - **Top Products:** Identified top 5 best-selling products by quantity.
@@ -34,19 +34,15 @@ Answered critical business questions using SQL:
 - **Sales Trends:** Evaluated monthly sales performance.
 - **Demographic Trends:** Explored purchasing behavior by age and gender.
 
-## 📈 Business Impact
+## Business Impact
 The insights provide a foundation for:
 - Optimizing inventory management for high-demand products.
 - Designing targeted marketing campaigns for VIP customers.
 - Reducing revenue loss by addressing cancellation drivers.
 - Improving customer support staffing during peak hours.
 
-## 🚀 How to Use
-1. Clone the repo.
-2. Open `sqlproject1.sql` in SQL Server Management Studio (SSMS).
-3. Run the scripts sequentially to reproduce the analysis.
 
-## 📁 Files
+## Files
 - `sqlproject1.sql` – Complete SQL script
 - `README.md` – Project documentation
 
